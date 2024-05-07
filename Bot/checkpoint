@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:/Hinfo/task/Tensorflow-Chatbot/Bot/model.tflearn"
+all_model_checkpoint_paths: "D:/Hinfo/task/Tensorflow-Chatbot/Bot/model.tflearn"

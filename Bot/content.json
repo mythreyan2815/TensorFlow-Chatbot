@@ -1,0 +1,59 @@
+{
+        "intents": [
+            {
+                "tag": "1",
+                "patterns": ["Hi", "Is anyone there?", "Hello"],
+                "responses": ["Hello! Welcome to Flipkart customer support. How can I assist you today?"],
+                "context_set": ""
+            },
+            {
+                "tag": "2",
+                "patterns": ["Can I reactivate my inactive Flipkart account?", "Reactivate inactive account", "Account reactivation"],
+                "responses": ["Yes, you can reactivate your inactive Flipkart account. Simply log in using your existing credentials, and if your account is inactive, follow the on-screen prompts to reactivate it."],
+                "context_set": ""
+            },
+            {
+                "tag": "3",
+                "patterns": ["Do I need to verify my mobile number or email address every time I log in?", "Verification process during login", "Login verification"],
+                "responses": ["Verification is typically a one-time process. After verifying your mobile number or email address during the account creation, you may not need to verify it every time you log in, unless there are security concerns or changes to your account information."],
+                "context_set": ""
+            },
+            {
+                "tag": "4",
+                "patterns": ["What is an OTP or verification code?", "Explanation of OTP", "Verification code definition"],
+                "responses": ["OTP stands for 'One-Time Password.' It is a temporary code sent to your registered mobile number or email address to verify your identity during certain activities, such as logging in or making changes to your account settings."],
+                "context_set": ""
+            },
+            {
+                "tag": "5",
+                "patterns": ["Why do I need to verify my mobile number or email address to log into my Flipkart account?", "Purpose of verification during login", "Account security measures"],
+                "responses": ["Verifying your mobile number or email address adds an extra layer of security to your Flipkart account. It helps ensure that only authorized users can access and make changes to the account, protecting your personal information and transactions."],
+                "context_set": ""
+            },
+            {
+                "tag": "6",
+                "patterns": ["How can I change the password for my Flipkart account?", "Change password process", "Update account password"],
+                "responses": ["To change your Flipkart account password, log in and go to the 'Account Settings' or 'Profile' section. Look for the 'Change Password' option, enter your current password, and then set a new one following the provided instructions."],
+                "context_set": ""
+            },
+            {
+                "tag": "7",
+                "patterns": ["How can I use a new email address to log in to my Flipkart account?", "Change login email address", "Update email for login"],
+                "responses": ["To use a new email address to log in, log into your Flipkart account with the existing credentials. Once logged in, navigate to the 'Account Settings' or 'Profile' section and choose the option to update your email address. Follow the prompts to add and verify the new email."],
+                "context_set": ""
+            },
+            {
+                "tag": "8",
+                "patterns": ["Goodbye", "See you later", "Bye"],
+                "responses": ["Thank you for choosing Flipkart! If you have any more questions in the future, feel free to reach out. Have a great day!"],
+                "context_set": ""
+            },
+            {
+                "tag": "9",
+                "patterns": ["Thank you", "Thanks", "Appreciate your help"],
+                "responses": ["You're welcome! If you need further assistance, don't hesitate to ask."],
+                "context_set": ""
+            }
+        ]
+    }
+    
